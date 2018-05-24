@@ -28,6 +28,22 @@ class: left, middle
 ---
 class: left, middle
 
+# Una Nota Sobre TDD
+
+.big[
+* __TDD__ es una _metodología_ de desarrollo que ha ganado bastante tracción por
+su premisa simple pero efectiva: _prueba primero, codifica después_.
+
+* Esto promueve _buenas prácticas_ de desarrollo, y puesto en práctica
+correctamente garantiza que ningún defecto crítico salga a producción.
+
+* Esta _metodología_ se adapta bien con nuevas _tecnologías_ como
+__Continuous Integration__ y __Contiuous Deployment__.
+]
+
+---
+class: left, middle
+
 # ¿Por qué usar Pruebas Automatizadas?
 
 * .big[Porque somos _humanos_.]
