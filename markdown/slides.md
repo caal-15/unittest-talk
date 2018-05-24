@@ -71,7 +71,11 @@ o establecer una conexión a una base de datos
 
 * En _unittest_, se implementan las funciones __setUp__ y __tearDown__ de una
 __subclase__ de la clase __TestCase__, y proveen una forma sencilla de programar
-tareas pre y post test.
+tareas pre y post test (se ejecutan antes y después de _cada_ test de la clase).
+
+* Si se desea que las tareas pre y post test solo corran _una vez_ antes de
+__todas__ y las pruebas y una vez después de __todas__ las pruebas se pueden
+implemenentar __setUpClass__ y __tearDownClass__.
 ]
 
 ---
