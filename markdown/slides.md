@@ -287,7 +287,7 @@ from unittest.mock import patch
 ...
 with patch.object(MyClass, 'method') as m:
   m.return_value = 3
-  thing = MyClass
+  thing = MyClass()
   self.assertEqual(thing.method(), 3)
   m.assert_called_once()
 ...
