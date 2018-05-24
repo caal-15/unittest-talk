@@ -301,15 +301,15 @@ class: left, middle:
 .big[
 * Hereda siempre de __unittest.TestCase__ al crear tu Subclase.
 
-* Implementa __setUp__ para preparaciones previas _fixtures_.
+* Implementa __setUp__ o __setUpClass__ para preparaciones previas (_fixtures_).
 
 * Todas tus pruebas (funciones de tu Subclase) deben empezar por _test_.
 
 * Utiliza las funciones _assert_ heredadas de __unittest.TestCase__
 (ej: __self.asssertEqual__) para las condiciones de tu prueba.
 
-* Implementa __tearDown__ para ejecutar acciones de limpieza después de las
-pruebas.
+* Implementa __tearDown__ o __tearDownClass__ para ejecutar acciones de limpieza
+después de las pruebas.
 
 * _Organiza_ el código de tus pruebas como lo discutimos antes.
 
